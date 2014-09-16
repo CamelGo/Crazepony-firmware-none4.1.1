@@ -1,0 +1,48 @@
+*** Creating Trace Output File '.\Output\Aircraft.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\output\delay.o"'
+### List of Objects: adding '".\output\led.o"'
+### List of Objects: adding '".\output\mpu6050.o"'
+### List of Objects: adding '".\output\iic.o"'
+### List of Objects: adding '".\output\tim.o"'
+### List of Objects: adding '".\output\moto.o"'
+### List of Objects: adding '".\output\nrf24l01.o"'
+### List of Objects: adding '".\output\spi.o"'
+### List of Objects: adding '".\output\stmflash.o"'
+### List of Objects: adding '".\output\uart1.o"'
+### List of Objects: adding '".\output\battery.o"'
+### List of Objects: adding '".\output\dmp.o"'
+### List of Objects: adding '".\output\bt.o"'
+### List of Objects: adding '".\output\hmc5883l.o"'
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### List of Objects: adding '".\output\sys_fun.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\stm32f10x_tim.o"'
+### List of Objects: adding '".\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\stm32f10x_i2c.o"'
+### List of Objects: adding '".\output\stm32f10x_spi.o"'
+### List of Objects: adding '".\output\stm32f10x_pwr.o"'
+### List of Objects: adding '".\output\control.o"'
+### List of Objects: adding '".\output\receivedata.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\startup_stm32f10x_md.o" ".\output\delay.o" ".\output\led.o" ".\output\mpu6050.o" ".\output\iic.o" ".\output\tim.o" ".\output\moto.o" ".\output\nrf24l01.o" ".\output\spi.o" ".\output\stmflash.o" ".\output\uart1.o" ".\output\battery.o" ".\output\dmp.o" ".\output\bt.o" ".\output\hmc5883l.o" ".\output\main.o" ".\output\stm32f10x_it.o" ".\output\sys_fun.o" ".\output\misc.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_usart.o" ".\output\stm32f10x_i2c.o" ".\output\stm32f10x_spi.o" ".\output\stm32f10x_pwr.o" ".\output\control.o" ".\output\receivedata.o" 
+--ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\Aircraft.map" -o .\Output\Aircraft.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\Aircraft.axf'
+### ADS-LD Command File: '.\Output\Aircraft.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\Aircraft.lnp', Handle=0x0000026C
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\Aircraft.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
